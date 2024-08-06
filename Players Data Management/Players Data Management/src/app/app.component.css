@@ -1,0 +1,163 @@
+label{
+    font-weight: bold;
+    color: rgb(247, 224, 18);
+}
+h1{
+    text-align: center;
+    color: rgba(23, 65, 10, 0.7);
+}
+body{
+    background: url(https://wallpapercave.com/wp/wp2940445.jpg);
+    
+}
+.topic{
+    margin-top: 30px;
+    font-style: italic;
+    color: rgb(231, 150, 178);
+}
+.container{
+    margin-top: 40px;
+    width: 50%;
+    height: 50%;
+    color: rgb(231, 24, 24);
+
+}
+.result{
+    color: rgb(239, 212, 186);
+    font-style: italic;
+}
+
+button {
+    margin: 10px;
+    display: block;
+    -webkit-appearance: none;
+    border: 4px solid rgba(255,255,255,0.45);
+    border-radius: 50px;
+    padding: 1em 2em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: padding-box;
+    color: #FFF;
+  }
+  button:before {
+    content: "";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50px;
+    z-index: -1;
+    filter: blur(14px);
+  }
+  button:after {
+    content: "";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50px;
+    z-index: -1;
+    filter: blur(14px);
+  }
+  
+  .one{
+    background-image: linear-gradient(90deg, #7b81ec, #3bd1d3);
+  }
+  .one:before {
+    background-image: linear-gradient(90deg, #7b81ec, transparent);
+  }
+  .one:after {
+    background-image: linear-gradient(90deg, transparent, #3bd1d3);
+  }
+  .one:hover{
+     
+      transition: transform 250ms;
+    }
+    
+    .one:hover {
+      transform: translateY(-10px);
+    }
+  
+  .two {
+    background-image: linear-gradient(90deg, #fa80d2, #fed757);
+  }
+  .two:before {
+    background-image: linear-gradient(90deg, #fa80d2, transparent);
+  }
+  .two:after {
+    background-image: linear-gradient(90deg, transparent, #fed757);
+  }
+  
+  .three {
+    background-image: linear-gradient(90deg,  #8ce0f1, #79f391);
+  }
+  .three:before {
+    background-image: linear-gradient(90deg,  #8ce0f1, transparent);
+  }
+  .three:after {
+    background-image: linear-gradient(90deg, transparent, #79f391);
+  }
+  
+  .four {
+    background-image: linear-gradient(90deg, #525a69, #898dda);
+  }
+  .four:before {
+    background-image: linear-gradient(90deg, #525a69, transparent);
+  }
+  .four:after {
+    background-image: linear-gradient(90deg, transparent, #898dda);
+  }
+
+  .five {
+    background-image: linear-gradient(90deg, #525a69, #53d066);
+  }
+  .five:before {
+    background-image: linear-gradient(90deg, #35b1d3, transparent);
+  }
+  .five:after {
+    background-image: linear-gradient(90deg, transparent, #47e64d);
+  }
+  .btn{
+    display: flex;
+    justify-content:center ;
+  }
+  .two:hover{
+     
+    transition: transform 250ms;
+  }
+  
+  .two:hover {
+    transform: translateY(-10px);
+  }
+  .three:hover{
+     
+    transition: transform 250ms;
+  }
+  
+  .three:hover {
+    transform: translateY(-10px);
+  }
+  .four:hover{
+     
+    transition: transform 250ms;
+  }
+  
+  .four:hover {
+    transform: translateY(-10px);
+  }
+  .five:hover{
+     
+    transition: transform 250ms;
+  }
+  
+  .five:hover {
+    transform: translateY(-10px);
+  }
+  .row{
+    color: #ffffff;
+  }
+  .table td{
+    color: #FFF;
+  }
